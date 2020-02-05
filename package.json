@@ -1,0 +1,14 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "Personal portfolio site",
+	"main": "index.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive"
+	},
+	"author": "Hans Tanawi",
+	"license": "MIT",
+	"dependencies": {
+		"node-sass": "^4.13.1"
+	}
+}
